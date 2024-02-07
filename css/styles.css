@@ -1,8 +1,11 @@
-/*
-=============== 
-Fonts
-===============
-*/
+/**
+ * =============== 
+ * Fonts
+ * ===============
+ *
+ * @format
+ */
+
 @import url("https://fonts.googleapis.com/css?family=Catamaran:400,700|Grand+Hotel");
 
 /*
@@ -66,6 +69,13 @@ h4 {
 }
 p {
   margin-bottom: 1.25rem;
+}
+em {
+  font-style: italic;
+}
+strong {
+  text-align: center;
+  font-weight: 700;
 }
 @media screen and (min-width: 800px) {
   h1 {
